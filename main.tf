@@ -22,6 +22,8 @@ module "iam" {
   temp_file_policy           = "${var.temp_file_policy}"
   identifiers                = "${var.identifiers}"
   aws_policies               = "${var.aws_policies}"
+  service_roles              = "${var.service_roles}"
+  aws_service_roles          = "${var.aws_service_roles}"
   inline_policy              = "${var.inline_policy}"
 
   tags = "${var.tags}" 
