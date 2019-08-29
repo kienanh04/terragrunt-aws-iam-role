@@ -25,6 +25,7 @@ module "iam" {
   service_roles              = "${var.service_roles}"
   aws_service_roles          = "${var.aws_service_roles}"
   inline_policy              = "${var.inline_policy}"
+  inline_policy_name         = "${var.inline_policy_name}"
 
   tags = "${var.tags}" 
 }
