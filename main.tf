@@ -22,6 +22,7 @@ module "iam" {
   project_env = "${var.project_env}"
   project_env_short = "${var.project_env_short}"
   customized_name   = "${var.customized_name}"
+  description       = "${var.description}"
 
   temp_file_assumerole       = "${var.temp_file_assumerole}"
   temp_file_policy           = "${var.temp_file_policy}"

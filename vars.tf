@@ -4,6 +4,7 @@
 variable "namespace" { default = "" }
 variable "name" { default = "role" }
 variable "customized_name" { default = "" }
+variable "description" { default = "" }
 variable "project_env" { default = "Production" }
 variable "project_env_short" { default = "prd" }
 
