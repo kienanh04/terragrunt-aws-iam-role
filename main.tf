@@ -15,7 +15,8 @@ locals {
 //        iam        //
 ///////////////////////
 module "iam" {
-  source = "git::https:/github.com/thanhbn87/terraform-aws-iam-role.git?ref=tags/0.1.5"
+//  source = "git::https:/github.com/thanhbn87/terraform-aws-iam-role.git?ref=tags/0.1.5"
+  source = "git::https:/github.com/kienah04/terraform-aws-iam-role.git?ref=tags/0.1.5"
 
   name        = "${local.name}"
   path        = "${var.path}"
